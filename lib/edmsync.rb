@@ -1,4 +1,5 @@
 require "edmsync/version"
+require "edmsync/dropbox"
 require "edmsync/bridge"
 
 module Edmsync
