@@ -6,7 +6,7 @@ require 'edmsync/version'
 Gem::Specification.new do |spec|
   spec.name          = "edmsync"
   spec.version       = Edmsync::VERSION
-  spec.authors       = ["dtan4"]
+  spec.authors       = ["Daisuke Fujita"]
   spec.email         = ["dtanshi45@gmail.com"]
   spec.summary       = %q{TODO: Write a short summary. Required.}
   spec.description   = %q{TODO: Write a longer description. Optional.}
