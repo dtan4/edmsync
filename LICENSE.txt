@@ -1,4 +1,4 @@
-Copyright (c) 2014 dtan4
+Copyright (c) 2016 Daisuke Fujita
 
 MIT License
 
