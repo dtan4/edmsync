@@ -4,5 +4,11 @@
   "memory": 128,
   "timeout": 5,
   "role": "",
-  "environment": {}
+  "environment": {},
+  "runtime": "nodejs4.3",
+  "handler": "lib.default",
+  "hooks": {
+    "build": "../../node_modules/.bin/babel src -d lib",
+    "clean": "rm -fr lib"
+  }
 }

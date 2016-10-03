@@ -4,6 +4,7 @@
   "description": "Dropbox Markdown to Evernote",
   "main": "index.js",
   "scripts": {
+    "babel": "babel src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
