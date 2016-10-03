@@ -1,0 +1,19 @@
+{
+  "name": "edmsync",
+  "version": "1.0.0",
+  "description": "Dropbox Markdown to Evernote",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtan4/edmsync.git"
+  },
+  "author": "Daisuke Fujita <dtanshi45@gmail.com> (https://github.com/dtan4)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtan4/edmsync/issues"
+  },
+  "homepage": "https://github.com/dtan4/edmsync#readme"
+}
