@@ -1,0 +1,8 @@
+{
+  "name": "edmsync",
+  "description": "Dropbox Markdown to Evernote",
+  "memory": 128,
+  "timeout": 5,
+  "role": "",
+  "environment": {}
+}
