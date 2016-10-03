@@ -12,9 +12,11 @@ exports.handle = (event, context, callback) => {
   let promise = request.promise();
 
   promise.then(data => {
-    data.Items.forEach(item => {
-      console.log(item);
+    let items = data.Items.map(item => {
+      return { Directory: item.Directory.S, Notebook: item.Notebook.S };
     });
+
+    callback(null, items)
   }).catch(err => {
     callback(err);
   });
