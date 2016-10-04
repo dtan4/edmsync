@@ -1,5 +1,5 @@
 {
-  "name": "edmsync-provider",
+  "name": "edmsync-analyzer",
   "version": "1.0.0",
   "description": "Analyze Dropbox directory",
   "main": "index.js",
