@@ -1,0 +1,14 @@
+{
+  "name": "edmsync-converter",
+  "version": "1.0.0",
+  "description": "Convert Markdown to ENML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daisuke Fujita <dtanshi45@gmail.com> (https://github.com/dtan4)",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^0.3.6"
+  }
+}
