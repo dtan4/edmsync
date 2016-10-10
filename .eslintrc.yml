@@ -1,0 +1,9 @@
+extends:
+  - eslint:recommended
+  - plugin:node/recommended
+plugins:
+  - node
+rules:
+  node/no-unsupported-features:
+    - error
+    - version: 4
