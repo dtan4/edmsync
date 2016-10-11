@@ -8,3 +8,6 @@ rules:
     - error
     - version: 4
   no-console: 0
+  semi:
+    - 2
+    - always
