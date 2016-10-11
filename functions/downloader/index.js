@@ -13,4 +13,4 @@ exports.handle = (event, context, callback) => {
   }).catch(err => {
     callback(err);
   });
-}
+};

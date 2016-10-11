@@ -30,4 +30,4 @@ exports.handle = (event, context, callback) => {
 
     callback(null, { enml: enml });
   });
-}
+};

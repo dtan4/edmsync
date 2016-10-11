@@ -8,7 +8,7 @@ exports.handle = (event, context, callback) => {
   let dynamodb = new AWS.DynamoDB();
   let request = dynamodb.scan({
     TableName: TableName,
-  })
+  });
   let promise = request.promise();
 
   promise.then(data => {
@@ -16,8 +16,8 @@ exports.handle = (event, context, callback) => {
       return { Directory: item.Directory.S, Notebook: item.Notebook.S };
     });
 
-    callback(null, items)
+    callback(null, items);
   }).catch(err => {
     callback(err);
   });
-}
+};

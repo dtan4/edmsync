@@ -12,8 +12,8 @@ exports.handle = (event, context, callback) => {
     let items = resp.entries.filter(entry => {
       return entry.rev > currentRevision;
     }).sort((a, b) => {
-      if (a.rev > b.rev) { return -1 };
-      if (a.rev < b.rev) { return 1 };
+      if (a.rev > b.rev) { return -1; }
+      if (a.rev < b.rev) { return 1; }
       return 0;
     });
 
@@ -26,4 +26,4 @@ exports.handle = (event, context, callback) => {
   }).catch(err => {
     callback(err);
   });
-}
+};
