@@ -8,7 +8,7 @@ exports.handle = (event, context, callback) => {
   let promise = client.filesDownload({ path: path });
 
   promise.then(resp => {
-    callback(null, new Buffer(resp.fileBinary, 'binary').toString());
+    callback(null, Buffer.from(resp.fileBinary, 'binary').toString());
   }).catch(err => {
     callback(err);
   });
